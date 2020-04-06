@@ -1,0 +1,11 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {I}What is RDS}{1}%
+\contentsline {section}{\numberline {II}Previous work}{1}%
+\contentsline {section}{\numberline {III}Aim of this Paper}{2}%
+\contentsline {section}{\numberline {IV}Background of RDS}{2}%
+\contentsline {section}{\numberline {V}Findings}{2}%
+\contentsline {section}{\numberline {VI}Applications}{3}%
+\contentsline {section}{\numberline {VII}Experiments with RDS}{3}%
+\contentsline {section}{\numberline {VIII}Impact of an insecure standard}{4}%
+\contentsline {section}{\numberline {IX}Conclusion}{4}%
+\contentsline {section}{References}{4}%

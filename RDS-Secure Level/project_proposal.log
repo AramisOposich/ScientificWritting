@@ -1,0 +1,538 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.3.23)  6 APR 2020 16:51
+entering extended mode
+**./project_proposal.tex
+(project_proposal.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ieeetran\IEEEtran
+.cls"
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen134
+\@IEEEtrantmpdimenB=\dimen135
+\@IEEEtrantmpdimenC=\dimen136
+\@IEEEtrantmpcountA=\count167
+\@IEEEtrantmpcountB=\count168
+\@IEEEtrantmpcountC=\count169
+\@IEEEtrantmptoksA=\toks15
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 210mm x 297mm (a4) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen137
+-- This is an 11 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen138
+\CLASSINFOnormalsizeunitybaselineskip=\dimen139
+\IEEEnormaljot=\dimen140
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen141
+\IEEEquantizedlengthdiff=\dimen142
+\IEEEquantizedtextheightdiff=\dimen143
+\IEEEilabelindentA=\dimen144
+\IEEEilabelindentB=\dimen145
+\IEEEilabelindent=\dimen146
+\IEEEelabelindent=\dimen147
+\IEEEdlabelindent=\dimen148
+\IEEElabelindent=\dimen149
+\IEEEiednormlabelsep=\dimen150
+\IEEEiedmathlabelsep=\dimen151
+\IEEEiedtopsep=\skip47
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@IEEEsubequation=\count174
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count175
+\c@table=\count176
+\@IEEEeqnnumcols=\count177
+\@IEEEeqncolcnt=\count178
+\@IEEEsubeqnnumrollback=\count179
+\@IEEEquantizeheightA=\dimen152
+\@IEEEquantizeheightB=\dimen153
+\@IEEEquantizeheightC=\dimen154
+\@IEEEquantizeprevdepth=\dimen155
+\@IEEEquantizemultiple=\count180
+\@IEEEquantizeboxA=\box45
+\@IEEEtmpitemindent=\dimen156
+\IEEEPARstartletwidth=\dimen157
+\c@IEEEbiography=\count181
+\@IEEEtranrubishbin=\box46
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty
+"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
+"
+Package: babel 2020/02/28 3.41 The Babel package
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.de
+f"
+File: switch.def 2020/02/28 3.41 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
+"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\eng
+lish.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
+"
+File: babel.def 2020/02/28 3.41 Babel common definitions
+\babel@savecnt=\count182
+\U@D=\dimen158
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.
+def")
+\bbl@readstream=\read2
+\bbl@dirlevel=\count183
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language72) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language72) on input line 108.
+))
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\epsfig.s
+ty"
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx
+.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics
+.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdft
+ex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+\epsfxsize=\dimen161
+\epsfysize=\dimen162
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigu
+re.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip50
+\subfigcapskip=\skip51
+\subfigcaptopadj=\dimen163
+\subfigbottomskip=\skip52
+\subfigcapmargin=\dimen164
+\subfiglabelskip=\skip53
+\c@subfigure=\count184
+\c@lofdepth=\count185
+\c@subtable=\count186
+\c@lotdepth=\count187
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigu
+re.cfg")
+\subfig@top=\skip54
+\subfig@bottom=\skip55
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sttools\flushend.
+sty"
+Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
+\flushend@@lastskip@a=\skip56
+\flushend@@lastskip@b=\skip57
+\flushend@@lastskip@c=\skip58
+\flushend@@penalty@a=\count188
+\flushend@@lastkern@a=\dimen165
+\var@@temp@spread=\dimen166
+\var@@temp@a=\dimen167
+\flushend@@page@rule=\dimen168
+\flushend@@varbox@a=\box47
+\flushend@@varbox@c=\box48
+\flushend@@tempbox@a=\box49
+\flushend@@tempbox@c=\box50
+\@viper=\box51
+\hold@viper=\box52
+\atColsBreak=\toks19
+\atColsEnd=\toks20
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox
+.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count189
+))
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/acronym\acronym.s
+ty"
+Package: acronym 2020/03/13 v1.46 Support for acronyms (Tobias Oetiker)
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bigfoot\suffix.st
+y"
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xstring\xstring.s
+ty"
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xstring\xstring
+.tex"
+\integerpart=\count190
+\decimalpart=\count191
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+\AC@clearlist=\toks21
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty
+"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.st
+y"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\dvipsnam
+.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\dvipsnam
+.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/anyfontsize\anyfo
+ntsize.sty"
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backe
+nd-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box53
+) (project_proposal.aux)
+\openout1 = `project_proposal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+
+-- Lines per column: 50 (exact).
+
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
+pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count193
+\scratchdimen=\dimen169
+\scratchbox=\box54
+\nofMPsegments=\count194
+\nofMParguments=\count195
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen170
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
+\everyMPtoPDFconversion=\toks23
+)
+("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epst
+opdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+<img/RDS_spectrum2.png, id=1, 1927.2pt x 917.4275pt>
+File: img/RDS_spectrum2.png Graphic file (type png)
+<use img/RDS_spectrum2.png>
+Package pdftex.def Info: img/RDS_spectrum2.png  used on input line 62.
+(pdftex.def)             Requested size: 250.5448pt x 119.26976pt.
+
+Underfull \hbox (badness 2875) in paragraph at lines 75--77
+\T1/ptm/m/n/11 ser-vices such as na-tional dis-as-ters and haz-ardous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+<img/SDR-Stick.png, id=3, 91.98pt x 130.743pt>
+File: img/SDR-Stick.png Graphic file (type png)
+<use img/SDR-Stick.png>
+Package pdftex.def Info: img/SDR-Stick.png  used on input line 87.
+(pdftex.def)             Requested size: 57.94768pt x 82.3685pt.
+
+Underfull \hbox (badness 3965) in paragraph at lines 92--93
+[]\T1/ptm/m/n/11 With this setup, var-i-ous sig-nal pro-cess-ing can
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 92--93
+\T1/ptm/m/n/11 schreiben wofür die abkürzung steht bsp:requency
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 92--93
+\T1/ptm/m/n/11 video broad-cast-ing. The Uni-ver-sity of Strath-clyde,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[1{C:/Users/Arbeit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <./img/RDS_spectrum2.png> <./img/SDR-Stick.png>]
+Underfull \hbox (badness 6725) in paragraph at lines 109--110
+\T1/ptm/m/n/11 into mod-ern tech-nolo-gies. Ad-di-tional ex-per-i-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+<img/circut.png, id=13, 216.20775pt x 128.27925pt>
+File: img/circut.png Graphic file (type png)
+<use img/circut.png>
+Package pdftex.def Info: img/circut.png  used on input line 136.
+(pdftex.def)             Requested size: 252.0pt x 149.51651pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+[2 <./img/circut.png>]
+<img/standard.png, id=18, 931.48pt x 237.88875pt>
+File: img/standard.png Graphic file (type png)
+<use img/standard.png>
+Package pdftex.def Info: img/standard.png  used on input line 150.
+(pdftex.def)             Requested size: 246.84102pt x 63.0402pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+<img/monitoring.png, id=19, 372.1905pt x 247.52475pt>
+File: img/monitoring.png Graphic file (type png)
+<use img/monitoring.png>
+Package pdftex.def Info: img/monitoring.png  used on input line 175.
+(pdftex.def)             Requested size: 126.0pt x 83.79471pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+[3 <./img/standard.png>]
+<img/smartCity.png, id=24, 593.21625pt x 307.1475pt>
+File: img/smartCity.png Graphic file (type png)
+<use img/smartCity.png>
+Package pdftex.def Info: img/smartCity.png  used on input line 193.
+(pdftex.def)             Requested size: 252.0pt x 130.47737pt.
+
+Underfull \hbox (badness 5475) in paragraph at lines 200--201
+\T1/ptm/m/n/11 to the near-est cen-tral. RDS is im-ple-mented as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+(project_proposal.bbl [4 <./img/monitoring.png> <./img/smartCity.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+[]\T1/ptm/m/n/9 (2020). [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+[]\T1/ptm/m/n/9 (2016). [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+\T1/ptm/m/n/9 https://www.bosch.com/de/stories/automatisiertes-fahren-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+[]\T1/ptm/m/n/9 (2018). [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
+[]\T1/ptm/m/n/9 (2018). [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
+\T1/ptm/m/n/9 https://https://www.diepresse.com/5382856/verkehrsplaner-
+ []
+
+)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+- LAST -
+Extra skip:6.615pt
+Left:271.9996pt/1.94843pt
+Right:265.3846pt/1.94843pt
+Output:271.2498pt
+[5] (project_proposal.aux) ) 
+Here is how much of TeX's memory you used:
+ 4742 strings out of 480934
+ 72372 string characters out of 2899449
+ 346618 words of memory out of 3000000
+ 20545 multiletter control sequences out of 15000+200000
+ 631119 words of font info for 108 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,8n,37p,1341b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Arbeit/AppData/Local/Programs/MiKTeX 2.9/
+fonts/enc/dvips/base/8r.enc}<C:/Users/Arbeit/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/urw/times/utmb8a.pfb><C:/Users/Arbeit/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Arbeit/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on project_proposal.pdf (5 pages, 762112 bytes).
+PDF statistics:
+ 44 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
