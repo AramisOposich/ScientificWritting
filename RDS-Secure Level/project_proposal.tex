@@ -54,14 +54,16 @@
 	
 	%%% Introduction %%%
 	\section{What is RDS?}
-	\textit{Radio Data System} (RDS) is a fast communication standard for FM radio broadcasting. Blaupunkt, a German radio manufacturer, and the European institute for broadcast technology developed a common RDS standard in 1983 \cite{Grds}. This single way communication standard is used to inform hosts about current traffic conditions and music information. Further more, navigation systems like Garmin and TomTom use RDS to calculate the quickest path to a destination. FM broadcasting provides five features at nowadays which are shown in figure 1. The features are mono audio, stereo audio, RDS, DirectBand and an audio subcarrier. RBDS is the American implementation located at 57 kHz \cite{standard}.
+	\textit{Radio Data System} (RDS) is a fast communication standard for FM radio broadcasting. Blaupunkt, a German radio manufacturer, and the European institute for broadcast technology developed a common RDS standard in 1983 \cite{Grds}. This single way communication standard is used to inform hosts about current traffic conditions and music information. Furthermore, navigation systems like Garmin and TomTom use RDS to calculate the quickest path to a destination. FM broadcasting provides five features at nowadays. The features are mono audio, stereo audio, RDS, DirectBand and an audio subcarrier. Figure 1 shows the frequency spectrum of an FM channel with the embedded features \cite{standard}. The bandwidth and the localization of RDS can be determined from the spectrum.
 	
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.13]{img/RDS_spectrum2}
-		\caption{FM broadcast features \cite{standard} \todo{readability is an issue here, as it is in Figure 1. As you learned in the course, every visualization is led in and out, described completely and related to the overall narratie, the argument of the paper}}
+		\caption{FM broadcast spectrum}}
 		\label{fig: spec}
 	\end{figure}
+
+	As the illustration displayed the RDS center frequency (FC) is localized at 57kHz and has a 5 percent bandwidth. For a correctly demodulation of the RDS signal, it is important to calibrate the receiver to FC.
 	
 	Radio stations like O3, Kronehit and FM4 use various FM broadcasting features for example \cite{Stau}. Also, the fire department, the police, the Austrian automobile- motorcycle and touring club (ÖAMTC) and other traffic service agency use the standard \cite{standard}.
 	
