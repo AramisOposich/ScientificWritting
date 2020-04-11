@@ -1,4 +1,4 @@
-\documentclass[conference,11pt,a4paper]{IEEEtran}
+\documentclass[conference,12pt,a4paper]{IEEEtran}
 \renewcommand\IEEEkeywordsname{Keywords}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -59,7 +59,7 @@
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.13]{img/RDS_spectrum2}
-		\caption{FM broadcast spectrum}}
+		\caption{FM broadcast spectrum}
 		\label{fig: spec}
 	\end{figure}
 
@@ -74,31 +74,6 @@
 	\textit{Traffic Announcement} (TA) signal: Switches a traffic announcement to a preset volume level and, if the motorist is listening to a cassette rather than the radio, stops the cassette and switches the radio on to receive the traffic message instead.
 	
 	\textit{Emergency Warning System} (EWS): A feature using a very small amount of data for emergency warning services such as national disasters and hazardous chemical spills.
-	\\
-	
-	
-	%%% Contribution %%%
-	\section{Related Work}
-	\todo{Ich weiss nicht ob du dich an meine presentation errinerst, aber da habe ich genau erzählt wofür die section ist. Da soll stehen was andere läute im gleichen feld gemacht haben. Salesman:too informal; this is supposed to be a paragraph on previous work done in your field, not simply a summary of your story}
-	For two years I have been working with signal processing in telecommunication orientated embedded systems. Both of these terrestrial broadcasting systems use bit interleaving and bit error forward correction to negate signal loss which will occur during transmission \cite{Terre}. These methods were also used in RDS. In particular a simple receiver with analog to digital converter is the only needed hardware. This hardware is called SDR-stick, Software Defined Radio. Figure \ref{fig: receiver} shows the used set up for RDS receivers.
-	
-	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.63]{img/SDR-Stick}
-		\caption{SDR-Stick \todo{Hier sollst du das bild beschreiben nicht den namen des produkts schrieben. Salesman: readability is an issue here, as it is in Figure 1. As you learned in the course, every visualization is led in and out, described completely and related to the overall narratie, the argument of the paper}}
-		\label{fig: receiver}
-	\end{figure}
-	
-	With this setup, various signal processing can be achieved. (RDS and FM stereo radio are some of the main features of  FM broadcasting. This high frequency (HF) receiver could also be used as digital video broadcast receiver) \todo{mark examples as such}. The University of Strathclyde, Glasgow-Scotland, is known as one of the biggest software developers in this field \todo{which?}. The institute \todo{which?} engineered a new algorithm to transmit RDS \cite{stewart2015software}. Many methods such as the costas loop and the sequence of timming recovery have been used in my work.\\
-	
-	\section{Aim of this Paper}
-	\todo{The point in this section is to give aims that can be checked at the end; make sure you pick those up in the conclusion and can serve them with the knowledge created in your paper}
-	In this paper I elaborate the application of this broadcast system to prove \todo{Was auch immer}. There is a big potential in in broadcast system utilization in the growing society. (Furthermore, this paper will try to point out)\todo{too colloquial; write more formally in a research paper} the impact these applications have in the current economy of \todo{Western countries oder was anderes...Salesman: see before: which? What can be learned from discussing the implications? What's the point here? Make it clear, already here before you do it. }. The transmission standard Blaupunkt developed in the early eighties has since been adapted into modern technologies. Additional experiments should reflect the versatility of the standard. \todo{Wie in previous work ist das in der falschen stelle. in Aim must du schreiben was du erreichen möchstest, später kkommt der teil wie du es machst, in result welche resultate du bekomment hast und conclusion ob due es erfolgeich geschaft hast oder nicht und wieso. Wenn du etwas nicht schafst und schrreibst wieso ist es gut. In einem scientific writing ist es auch sehr hilfreich für die nächsten die das machen wenn sie aus deinem fehler lernen.}\\		
-
-	%%% Originality & Related Work %%%
-	\section{Background of RDS}
-	In the early eighties, blaupunkt tried to develop a fast and cheap communication standard for radios \todo{Vieleich sollst du den teil in aim löschen und nur hier lassen, obn hegört es sowieso nicht dazu}. Blaupunkt focused on music information, any radio should be able to receive RDS signals \cite{DietmanRDSbeginning}. The audio engineer’s reference book released the first RDS specification\cite{firstRDSspecEBUTECH}. Including following information:
 	
 	\textit{List of Alternative Frequencies} (AF): Stereo Audio needs this feature to obtain the nearest transmitter mast
 	
@@ -112,9 +87,38 @@
 	
 	\textit{RadioText}  (RT): Text for display
 	
-	\textit{Programme Type} (PTY): Identifies the type of the program from a list of 31 possibilities \todo{sie hat recht das hat überhaupt kein informationswert. Schrieb vielleicht die wichtigsten possibilities und wieso se wichtig sind. Salesman: transition here from this information to what comes next; why was this important?}\\
+	\textit{Programme Type} (PTY): Identifies the type of the program from a list of 31 possibilities
+	\\
 	
-	A conventional terrestrial receiver circuit can be utilized to receive the above stated features. DVB-T transmission employs the same terrestrial circuit with the significant difference that there is encryption. Figure \ref{fig: receiverCircut} shows the demodulator for an RDS signal. This module is still applied on modern devices to this day.
+	
+
+	\section{Related Work}
+	
+	Dietmar Kopitz had already described the fields of application of RDS in the year 1993. His work shows how the digital signals are implemented on the radio and what security gaps RDS entails. To better understand the security gaps RDS has been compared to digital video broadcast (DVB-T). Which uses the same transmission type, called terrestrial transmission, so the demodulation are utilizied in a simular form. With one difference, RDS does not include data encryption. In his work, this gap is justifyed to the simple application field of RDS and that any sensitive data is transmitted via RDS. DVB-T in comparesing is a paid service wich is entended to be bugproof. Therefore an encryption is embedded in the transmission channel. DVB-T can only be received by specific hardware with the encryption key \cite{DietmanRDSbeginning}.
+	
+	However both communication standards utilizy the same terrestrial transmission. The University of Strathclyde, Glasgow-Scotland, is known as one of the biggest software developers in demodulation of terrestrial signals. The institute of electrical en developed new algorithms to transmit and receice terrestrial signals \cite{stewart2015software}. Many methods such as the costas loop and the sequence of timming recovery have been used in my work. The universtity operates with an \textit{Software defined Readio} (SDR) stick. Figure \ref{fig: receiver} shows the used set up for RDS receivers. SDR defines that digital circuts are implemented into a signal prozesor.
+	
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=1]{img/SDR-Stick}
+		\caption{SDR-Stick}
+		\label{fig: receiver}
+	\end{figure}
+	
+	With the size of an conventual USB-Device this receiver can operate in a range of 108kHz up to 2.048GHz. Due to the integrated signalprozessor it is now possible to built an compact and cheap receiver. RDS and FM stereo radio are some of the main features of  FM broadcasting. This high frequency (HF) receiver could also be used to demodulate DVB-T, ADS-B and UMTS. \\
+	
+	
+	\section{Aim of this Paper}
+	
+	In this paper I elaborate the application of RDS to prove that an encryption level is needed to be implemented in the standard. Since the paper release from Kopitz \cite{Dietman} the applications of RDS has been changed. Albeit the lack of encryption stayed the same and RDS is becomming deeply envolved in modern usecases. There is a big potential in in broadcast system utilization in the growing society. Additional experiments should reflect the versatility of the standard.\\
+
+
+	\section{Demodulation Circut}
+		
+	The traffic related features like TA and TP have been added  to the standard in 1990 \cite{TATP}. Traffic Message Channel (TMC) was later implemented into the standard in 2007. This channel made it possible to transmit traffic-related information by broadcasting them digitally. By incorporating TMC, the navigation systems were able to operate in real time  \cite{barca2017radio}. Albeit, the terrestrial transmission method has remained the same since 1983. Therefor the old standard makes it possible to manipulate the TMC signals.
+	
+	A conventional terrestrial receiver circuit can be utilized to receive RDS. DVB-T transmission employs the same terrestrial circuit with the significant difference that there is encryption. Figure \ref{fig: receiverCircut} shows the demodulator for an RDS signal. This module is applied in every RDS system which is described in this paper.
 	
 	\begin{figure}[h]
 		\centering
@@ -122,8 +126,11 @@
 		\caption{digital circut for RDS receivers}
 		\label{fig: receiverCircut}
 	\end{figure}
-	
-	The traffic related features like TA and TP have been added \todo{to radios -> oder was auch immer. ich habe mein mehl hinzugefügt, jemand der nicht weis das man es in wasser zufügt um teig zu bekommen kann nicht mit der info anfangen} in 1990 \cite{TATP}. Traffic Message Channel (TMC) was later implemented into the standard in 2007. This channel made it possible to transmit traffic-related information by broadcasting them digitally. By incorporating TMC, the navigation systems were able to operate in real time  \cite{barca2017radio}. Albeit, the terrestrial transmission method has remained the same since 1983. \todo{Weil es die industrie es nicht nötig hatte oder es kein geld in der forschung gibt oder oder oder....Das gleich wie oben. Kein informationswert. Salesman: and, why is this relevant? explain!}\\
+
+	The first 6 blocks are used to digitize the RF signal. The actual demodulation occurs with the Costas Loop. This loop is responsible for extracting the RDS information from the HF signal. The timing recovery is synchronizing the demodulator to the 57kHz. The following blocks are embedded to stabilize the connection between host an client.    
+
+
+
 	
 	%%% Relevance %%%
 	\section{Findings}
