@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.3.23)  9 APR 2020 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.3.23)  13 APR 2020 21:37
 entering extended mode
 **./project_proposal.tex
 (project_proposal.tex
@@ -24,7 +24,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 -- Using 210mm x 297mm (a4) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen137
--- This is an 11 point document.
+-- This is a 12 point document.
 \CLASSINFOnormalsizebaselineskip=\dimen138
 \CLASSINFOnormalsizeunitybaselineskip=\dimen139
 \IEEEnormaljot=\dimen140
@@ -48,24 +48,24 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
@@ -333,7 +333,7 @@ LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 
--- Lines per column: 50 (exact).
+-- Lines per column: 48 (exact).
 
 ("C:\Users\Arbeit\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
 pdf.mkii"
@@ -362,114 +362,92 @@ File: img/RDS_spectrum2.png Graphic file (type png)
 Package pdftex.def Info: img/RDS_spectrum2.png  used on input line 61.
 (pdftex.def)             Requested size: 250.5448pt x 119.26976pt.
 
-Underfull \hbox (badness 2875) in paragraph at lines 74--76
-\T1/ptm/m/n/11 ser-vices such as na-tional dis-as-ters and haz-ardous
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-
- []
-
-<img/SDR-Stick.png, id=3, 91.98pt x 130.743pt>
-File: img/SDR-Stick.png Graphic file (type png)
-<use img/SDR-Stick.png>
-Package pdftex.def Info: img/SDR-Stick.png  used on input line 86.
-(pdftex.def)             Requested size: 57.94768pt x 82.3685pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
 [1{C:/Users/Arbeit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./img/RDS_spectrum2.png> <./img/SDR-Stick.png>]
-Underfull \hbox (badness 1769) in paragraph at lines 94--96
-\T1/ptm/m/n/11 po-ten-tial in in broad-cast sys-tem uti-liza-tion in the
- []
+ <./img/RDS_spectrum2.png>]
+<img/SDR-Stick.png, id=10, 91.98pt x 130.743pt>
+File: img/SDR-Stick.png Graphic file (type png)
+<use img/SDR-Stick.png>
+Package pdftex.def Info: img/SDR-Stick.png  used on input line 104.
+(pdftex.def)             Requested size: 91.97975pt x 130.74266pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
-
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 113--114
-\T1/ptm/m/n/11 hat recht das hat über-haupt kein in-for-ma-tion-swert.
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 113--114
-\T1/ptm/m/n/11 Schrieb vielle-icht die wichtig-sten pos-si-bil-i-ties und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-<img/circut.png, id=13, 216.20775pt x 128.27925pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+<img/circut.png, id=11, 216.20775pt x 128.27925pt>
 File: img/circut.png Graphic file (type png)
 <use img/circut.png>
-Package pdftex.def Info: img/circut.png  used on input line 119.
+Package pdftex.def Info: img/circut.png  used on input line 125.
 (pdftex.def)             Requested size: 252.0pt x 149.51651pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[2 <./img/circut.png>]
-<img/standard.png, id=18, 931.48pt x 237.88875pt>
-File: img/standard.png Graphic file (type png)
-<use img/standard.png>
-Package pdftex.def Info: img/standard.png  used on input line 136.
-(pdftex.def)             Requested size: 246.84102pt x 63.0402pt.
-
-Underfull \hbox (badness 2181) in paragraph at lines 141--142
-\T1/ptm/m/n/11 broad-cast and ev-ery HF an-tenna can re-ceive this
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-[3 <./img/standard.png>]
-<img/monitoring.png, id=23, 372.1905pt x 247.52475pt>
+[2 <./img/SDR-Stick.png> <./img/circut.png>]
+<img/monitoring.png, id=17, 372.1905pt x 247.52475pt>
 File: img/monitoring.png Graphic file (type png)
 <use img/monitoring.png>
-Package pdftex.def Info: img/monitoring.png  used on input line 161.
-(pdftex.def)             Requested size: 126.0pt x 83.79471pt.
+Package pdftex.def Info: img/monitoring.png  used on input line 151.
+(pdftex.def)             Requested size: 176.39923pt x 117.31108pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-<img/smartCity.png, id=24, 593.21625pt x 307.1475pt>
+<img/smartCity.png, id=18, 593.21625pt x 307.1475pt>
 File: img/smartCity.png Graphic file (type png)
 <use img/smartCity.png>
-Package pdftex.def Info: img/smartCity.png  used on input line 179.
+Package pdftex.def Info: img/smartCity.png  used on input line 171.
 (pdftex.def)             Requested size: 252.0pt x 130.47737pt.
+
+Underfull \hbox (badness 1742) in paragraph at lines 178--179
+\T1/ptm/m/n/12 stan-dard in this ex-per-i-ment. Ac-cord-ing to the
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 178--179
+\T1/ptm/m/n/12 pub-lisher of this ex-per-i-ment one prob-lem is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+[3 <./img/monitoring.png> <./img/smartCity.png>]
+Underfull \hbox (badness 3019) in paragraph at lines 184--185
+[]\T1/ptm/m/n/12 The TU traf-fic planer Her-mann Knoflacher
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+Package textcomp Info: Symbol \textasciiacute not provided by
+(textcomp)             font family ptm in TS1 encoding.
+(textcomp)             Default family used instead on input line 189.
+<img/standard.png, id=25, 931.48pt x 237.88875pt>
+File: img/standard.png Graphic file (type png)
+<use img/standard.png>
+Package pdftex.def Info: img/standard.png  used on input line 194.
+(pdftex.def)             Requested size: 246.84102pt x 63.0402pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 5475) in paragraph at lines 186--187
-\T1/ptm/m/n/11 to the near-est cen-tral. RDS is im-ple-mented as
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
-
- []
-
-[4 <./img/monitoring.png> <./img/smartCity.png>] (project_proposal.bbl
+[4 <./img/standard.png>] (project_proposal.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 33--36
 []\T1/ptm/m/n/9 (2020). [On-line]. Avail-able:
  []
@@ -512,27 +490,28 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 - LAST -
-Extra skip:47.12729pt
-Left:669.22989pt/0.0pt
-Right:370.3846pt/1.94843pt
-Output:392.80638pt
+Extra skip:21.53247pt
+Left:298.28998pt/1.61092pt
+Right:276.42pt/1.94843pt
+Output:294.64499pt
 [5] (project_proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 4742 strings out of 480934
- 72372 string characters out of 2899449
- 349618 words of memory out of 3000000
- 20545 multiletter control sequences out of 15000+200000
- 631119 words of font info for 108 fonts, out of 3000000 for 9000
+ 4743 strings out of 480934
+ 72399 string characters out of 2899449
+ 346616 words of memory out of 3000000
+ 20547 multiletter control sequences out of 15000+200000
+ 625825 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,37p,1623b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Arbeit/AppData/Local/Programs/MiKTeX 2.9/
-fonts/enc/dvips/base/8r.enc}<C:/Users/Arbeit/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/urw/times/utmb8a.pfb><C:/Users/Arbeit/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Arbeit/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on project_proposal.pdf (5 pages, 763476 bytes).
+ 38i,8n,37p,883b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Arbeit\AppData\Local\MiKTeX\2.9\fonts/pk
+/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/Arbeit/AppData/Local/Programs/
+MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Arbeit/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Arbeit/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Arbeit/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on project_proposal.pdf (5 pages, 759485 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

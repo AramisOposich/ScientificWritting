@@ -127,33 +127,14 @@
 		\label{fig: receiverCircut}
 	\end{figure}
 
-	The first 6 blocks are used to digitize the RF signal. The actual demodulation occurs with the Costas Loop. This loop is responsible for extracting the RDS information from the HF signal. The timing recovery is synchronizing the demodulator to the 57kHz. The following blocks are embedded to stabilize the connection between host an client.    
+	The first 6 blocks are used to digitize the RF signal. The actual demodulation occurs with the Costas Loop. This loop is responsible for extracting the RDS information from the HF signal. The timing recovery is synchronizing the demodulator to the 57kHz. The following blocks are embedded to stabilize the connection between host an client.\\    
+	
+	
+	\section{Applications RDS Systems}
 
-
-
+	The fields of application of RDS have changed significantly since 1983. The following section is intended to illustrate the versatility of RDS.
 	
-	%%% Relevance %%%
-	\section{Findings}
-	
-	The RDS standard did not include encryption for data transmission\todo{wich is necessary in order to achieve safe data transmission. Salesman: when?}. Online tutorials and books describe how the standard works and what equipment is utilized to build a RDS broadcast system. Figure \ref{fig: standard} shows the transmission standard \cite{DIN_EN}. \todo{Salesman: I do not understand what happens from here on out }
-	
-	
-	The implementation of a check in addition to the offset \todo{du hast nicht erklert was ein offset ist} serves a bit recovery purpose only \todo{and can not be used for purposes such as ..... because of .... Versuche das aber in 2 Sätzen zu schreiben}. (Bit recovery and bit check systems are embedded into every HF transmission). \todo{Genau was sie gesagt hat. Salesman: ah, this needs to come before}
-	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.265]{img/standard}
-		\caption{RDS transmission standard \todo{Lead into this Figure, describe and explain; again, readability is an issue}}
-		\label{fig: standard}
-	\end{figure}
-	
-	Considering the fact that RDS is based on terrestrial broadcast and every HF antenna can receive this signal, the transmission can be intercepted by any host \todo{in order to achieve ... was auch immer Salesman:and? is this an opporunity, a danger, if so why? Explain this}. This standard is still used by the police, the fire department and the ambulance.  Based on the encryption, this standard is not reliable, but must be used by the state regulation in \todo{Austria, Europe, America??}. According to § 89 of the TKG, the malevolent manipulation or interception of their communication is illegal \cite{telecomGesetz}. \todo{Fakten haben keine bedeutung und antworten nie auf die frage wieso. Himmel ist blau. das ist ein fakt, aber dadurch hast du keine idee wieso er blau ist... Mann soll ein statement erkleren. beispielweise könntest du schreiben: Because the standard is not encrypted is makes it vulnerable and the data could easily be retrieved from unwanted persons or institutions. <-- überlege es noch einmal. Salesman: so? You toss in facts; rather, name and explain and create an argument – this is what the course taught you. Remember the four steps and create your text according to them}\\
-	
-	
-	\section{Applications \todo{of broadcasting signals <- oder was halt richtig ist. Applications of?}}
-	Information processing is key for any automated system due to the fact that \todo{schreib jetzt wieso es key ist. Salesman: – this is so general that it carries no information; be precise and stick within the space you deal with here}. These systems need input in order to operate properly \todo{Was sie damit sagen wollte ist, welche system brauchen input um wie zu funktionieren? Mit dem toddler hat sie recht, ein baby brauch auch essen (input) um gesund leben zu können (operate properly)... zu generel.. Salesman: again, too generl; this is true for a toddler, too}. For example, self-driving cars rely on information about the road, traffic lights and pedestrian frequency. These conditions are measured by sensors and distributed to various receivers via RDS. For future applications, this standard can be expanded by additional information blocks. Moritz Dechant, senior developer Bosch, claimed in an interview that any external input for self driving cars would lighten the required computing  power \cite{bosch} \todo{Ich wüde das auslassen, das ist nur ein claim kein ultimativer beweis das es so sein wird <- Theoretisch kannst du ihn auch so diskreditieren wenn es anders in der zukunft wird. Wenn du das unbedingt haben wills dann formuliere es anders bsp: Experts in this field are positive about the idea that any external input for self driving cars could potentially lighten the required computing  power <-- so brauchst du keine referent. Salesman: so, how does that connect to the need for information processing you talked about before in this paragraph? }.
-	
-	\subsection{TP and TMC inpact on traffic} \todo{ <- In latex ist es eine subsection}
+	\subsection{TP and TMC inpact on traffic}
 	
 	Traffic jams are a big issue in european cities like Vienna. For those directly affected, the damage is quantified in loss of time. According to these estimates, every german citizen spends an average of 50 hours a year in traffic jams \cite{Stau}. Lost working hours, traffic-related accidents and fuel consumption amount to a loss in over 100 billion euro. 
 	
@@ -167,11 +148,13 @@
 	
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width =0.5 \linewidth]{img/monitoring}
-		\caption{Urban information broadcasting \todo{wie in der obigen figur Salesman: description missing, lead in and lead out, make readable etc.}}
+		\includegraphics[width =0.7\linewidth]{img/monitoring}
+		\caption{Urban RDS infrastructure}
 		\label{fig: monitoring}
 	\end{figure}
 	
+	The center of the network is the TMC data preprocessor. The center commands all routes from the buses to avoid congestions. Current traffic conditions are broadcastet with RDS. Therefor various transmitter are positioned in Shanghai.
+
 	
 	\subsection{Pollution}
 	
@@ -181,7 +164,7 @@
 	\section{Experiments with RDS} %%%%%Hierstelen geblieben
 	\textbf{RDS of things - Smart City}
 	
-	In a study \todo{namen! Nicht türkisch, es ist kein essen :P}(2019), a smart city prototype was built which served as the communication channel with the RDS standard. The prototype included traffic lights, emergency services and general traffic flow services. The prototype was also developed with 2G and LoRaWan. The replicated cities were London, New York and Moscow. The results are shown in Figure \ref{fig: smartCity}.The study shows that RDS is a lot cheaper. Furthermore, the introduction is also cheaper because the existing transmission masts can be reused \cite{SmartCity-kutlay2019rds}.
+	In a study by Kutlay Atalay, a smart city prototype was built which served as the communication channel with the RDS standard. The prototype included traffic lights, emergency services and general traffic flow services. The prototype was also developed with 2G and LoRaWan. The replicated cities were London, New York and Moscow. The results are shown in Figure \ref{fig: smartCity}. The study shows that RDS is a lot cheaper. Furthermore, the introduction is also cheaper because the existing transmission masts can be reused \cite{SmartCity-kutlay2019rds}.
 	
 	\begin{figure}[h]
 		\centering
@@ -192,20 +175,33 @@
 	
 	\subsection{Health monitoring using Radio Data Systems}
 	
-	In order to reduce the costs and ooccupancy \todo{ich weis nicht was das bedeutet sry.. }rate of hospitals, a monitoring system has been presented by R.S. Deepak Ram in a studies. This system consists of one health control unit and an central that receives the health data. The health control unit indicates condition where a hospital treatment is needed and omit this information to the nearest central. RDS is implemented as communication standard in this experiment. According to the publisher of this experiment one problem is highlighted, the secure level of the system is based on FM broadcast \cite{Healthcare-ram2015health}. \\
-	
-	
+	In order to reduce the costs and occupancy rate of hospitals, a monitoring system has been presented by R.S. Deepak Ram in a studies. This system consists of one health control unit and an central that receives the health data. The health control unit indicates condition where a hospital treatment is needed and omit this information to the nearest central. RDS is implemented as communication standard in this experiment. According to the publisher of this experiment one problem is highlighted, the secure level of the system is based on FM broadcast \cite{Healthcare-ram2015health}. \\
 	
 	\section{Impact of an insecure standard}
 	
 	A study shows that 95 percent of the drivers trust their navigation system \cite{trustNavi_stanton2014advances}. Considering that the standard is not encrypted it gives space to manipulate the data broadcast. If a person has the intention to cause a traffic jam, by manipulation the RDS broadcasting, they will face no technical obstacles to fake information. 
 	
-	The TU traffic planer Hermann Knoflacher gained unpopularity after he deliberately caused congestions to reduce the amount of commuters driving through Vienna.
-	He strategically placed some construction sites on busy roads to form multiple traffic jam\cite{presse}. As a reaction to this, navigation systems tried to avoid those streets and thus commuters chose to drive around vienna rather than through it. This same result can be achieved by hackers utilizing RDS. By sharing wrong information on TMC and TP about certain streets, there could be an increase or decrease in the frequency that streets are used. As a consequence, streets could reach maximum capacity and start to congest.\\
+	The TU traffic planer Hermann Knoflacher gained unpopularity after he deliberately caused congestions to reduce the amount of commuters driving through Vienna.	He strategically placed some construction sites on busy roads to form multiple traffic jam\cite{presse}. As a reaction to this, navigation systems tried to avoid those streets and thus commuters chose to drive around vienna rather than through it. This same result can be achieved by hackers utilizing RDS. By sharing wrong information on TMC and TP about certain streets, there could be an increase or decrease in the frequency that streets are used. As a consequence, streets could reach maximum capacity and start to congest.\\
+	
+	
+	\section{Findings}
+	
+	Bit recovery and bit check systems are embedded into every HF transmission. Those mechanism prevent information loss during transmission. In the RDS standard those functions are called check + offset. The check flag indicates if the host has received a predefined amout of bits. One message block also includes the beginning of the following message. If the message bit sequenz doesn´t start with the announced sequence the receiver indicates also data loss, this function is called offset. In total the receiver have two indicators to obtain lost data. Figure \ref{fig: standard} shows the transmission standard \cite{DIN_EN}. The transmission is splitted in sent and receive blocks.
+	
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.265]{img/standard}
+		\caption{RDS transmission standard}
+		\label{fig: standard}
+	\end{figure}
+
+	The figure shows that the check + offset is always sent in ten bits. In the receiving block the offset is set by previous Offset. Offset B is equal to offset A, offset C is equal to offset B etc. The transmission standard also shows that receive block did't include any encryption for data transmission. Every encrypted data communication has an key for the decryption. But RDS did't include the key in the receiving block. Online tutorials and books describe how the standard works and what equipment is utilized to build a RDS broadcast system. In conclusion the standard is not implemented for a safe data communication. 
+		
+	Because the standard is not encrypted it makes it vulnerable and the data could easily be retrieved from unwanted persons or institutions. This standard is still utilized by the police, the fire department, the ambulance and the stated examples. The only security level exists to § 89 of the TKG, the malevolent manipulation or interception of their communication is illegal \cite{telecomGesetz}. The case of Knoflacher showed that strategic manipulation can influence the traffic flow of an entire city. The same situation could be repeated by the lack of safety.
 	
 	
 	\section {Conclusion}
-	\todo{There is so much more substantial discussion that is needed here; this result did not need research done on the matter}
 	
 	One of the greatest benefits of RDS is the simple implementation and the low-price setup. Existing FM radio transmission masts are reused for current applications. Even more features can be broadcasted within the RDS signal without changing the infrastructure. This is possible thanks to the broader FM frame of the RDS. This paper illustrated some versatile application where data sharing via RDS can optimize the infrastructure. Considering the fact that the standard has no encryption, it should not be integrated as a carrier of sensible data eg. medical and financial information. 
 	
